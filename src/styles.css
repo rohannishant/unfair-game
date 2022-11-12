@@ -1,0 +1,26 @@
+body {
+	background-color: aliceblue;
+	margin: 1vw;
+}
+
+* {
+	font-family: system-ui;
+}
+
+#menu {
+	font-size: 4vw;
+	text-align: center;
+}
+
+#menu > button {
+	padding: 1em;
+	margin-right: 1em;
+}
+
+#editlist li {
+	margin-top: 0.8em;
+}
+
+#editlist button {
+	padding: 0.2em;
+}
