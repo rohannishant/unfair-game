@@ -21,6 +21,7 @@
 	"author": "Rohan Nishant",
 	"license": "MIT",
 	"devDependencies": {
+		"@parcel/transformer-less": "^2.8.0",
 		"@types/react": "^18.0.25",
 		"@types/react-dom": "^18.0.8",
 		"@typescript-eslint/eslint-plugin": "^5.42.1",

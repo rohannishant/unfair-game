@@ -1,6 +1,8 @@
 import React from "react";
 import { useLocation } from "wouter";
 
+import "./Menu.less";
+
 export default function Menu() {
 	const setLocation = useLocation()[1];
 
@@ -11,7 +13,6 @@ export default function Menu() {
 				<i>by Rohan Nishant</i>
 			</p>
 			<button
-				className="menu-button"
 				onClick={() => {
 					setLocation("/play");
 				}}
@@ -19,7 +20,6 @@ export default function Menu() {
 				Play
 			</button>
 			<button
-				className="menu-button"
 				onClick={() => {
 					setLocation("/edit");
 				}}
