@@ -2,6 +2,7 @@ import React from "react";
 import { Route, Switch } from "wouter";
 import Menu from "./Menu";
 import EditList from "./EditList";
+import Editor from "./Editor";
 import NotFound from "./NotFound";
 
 export default function App() {
@@ -13,6 +14,9 @@ export default function App() {
 				</Route>
 				<Route path="/edit">
 					<EditList />
+				</Route>
+				<Route path="/edit/:name">
+					<Editor />
 				</Route>
 				<Route>
 					<NotFound />
